@@ -19,6 +19,13 @@ import 'firebase/firestore';
 apikey는 가장 중요한 정보이므로, 암호화하여 숨겨야 함
 env 파일에 키를 입력하고, gitignore를 활용해 숨김 (키 파일 업로드 방지)
 
+react 공식 문서에서 필요한 부분만 찾아낼 수 있는 요령을 익히자.
+class 형태가 아닌 function 형태로, Hook을 잘 사용할 수 있어야 함
+
+어떤 컴포넌트를 렌더링할지 결정하는 router의 역할을 이해해야 함
+
+Hooks를 사용하기 위한 useState함수, 인자로 [상태, 상태관리함수, 이름]
+
 # [3월 23일]
 
 [3월 23일]
