@@ -13,6 +13,12 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
 
+파일 추가/삭제 등의 작업 수행 시 커밋을 잊지 말자.
+오늘 추가한 firebase.js 파일엔 firebase 시스템을 활용하기 위한 중요 정보들(계정 고유 정보 등)이 담겨있음.
+
+apikey는 가장 중요한 정보이므로, 암호화하여 숨겨야 함
+env 파일에 키를 입력하고, gitignore를 활용해 숨김 (키 파일 업로드 방지)
+
 # [3월 23일]
 
 [3월 23일]
