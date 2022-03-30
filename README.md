@@ -1,5 +1,18 @@
 # 차찬영
 
+# [3월 30일]
+git add . (변경 사항 저장할 때)
+firebase import시 다음과 같이 붙여넣음
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+
+최신버전이 9버전 이상이므로 이상의 import문을 따르고,
+이하의 버전일 경우 아래의 import문을 작성함
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/firestore';
+
 # [3월 23일]
 
 [3월 23일]
