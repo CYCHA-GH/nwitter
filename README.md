@@ -5,7 +5,14 @@
 확인하기
 중간고사 - 시험지 그대로 따라하면 됨
 리포지토리 생성 및 렌더링..
-npm cache clean -force 
+npm cache clean -force
+npm이 이상하게 동작할때(설치 및 업데이트 오류 시)
+firebase 버전 8.8.0 업데이트
+막힐땐 easysit github 참조
+OAuth App 생성, 콜백URL과 clientid 제대로 가져오기...
+history를 잘 활용할것, 문제 발생시에 롤백하여 해결할 수도 있음...
+Auth.js -> 회원가입 및 로그인 로직 처리
+
 
 # [4월 6일]
 Router.js 수정, react-route-dom 버전 5.2.0으로 고정 (다운그레이드)
